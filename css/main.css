@@ -44,3 +44,16 @@ header{
 .navbar{
     text-align: left;
 }
+.pie, .encabezado{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.container{
+    display: flex;
+    align-content: stretch;
+}
+footer{
+    background-color:#F39C12 ;
+}
