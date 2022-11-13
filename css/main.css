@@ -1,0 +1,46 @@
+body{
+    background-color:#FAE5D3 ;
+    color: #AF7AC5 ;
+    text-align: center;
+    font-size:larger ;
+}
+.titulos{
+    text-decoration:underline;
+    text-decoration-color:#F1C40F;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.izquierda{
+    text-align: left;
+}
+header{
+    background-color:#F39C12 ;
+}
+.whatsapp{
+    border: #FAE5D3;
+    height:50px;
+    width: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 80px;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+} 
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.subtitulos{
+    text-decoration:underline;
+    text-decoration-color:#F1C40F;
+    text-align: left;
+}
+.navbar{
+    text-align: left;
+}
