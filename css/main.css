@@ -49,11 +49,20 @@ header{
     justify-content:space-around;
     align-items: center;
     flex-wrap:wrap ;
+    padding: 10px;
+    margin: 10px;
 }
 .container{
     display: flex;
-    align-content: stretch;
 }
 footer{
     background-color:#F39C12 ;
+}
+.container div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+    padding: 10px;
+    margin: 10px;
 }
