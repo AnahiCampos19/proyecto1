@@ -34,6 +34,7 @@ header{
     width: 25% ;
     justify-content: space-around;
     margin: 10px;
+    flex-wrap: wrap;
 }
 .redes{
     width: 50px;
@@ -51,6 +52,7 @@ nav{
     background-color: #EAECEE;
     width:100% ;
     text-decoration: none;
+    
 }
 nav ul{    
     display: flex;
@@ -61,7 +63,9 @@ nav ul{
     width:100% ;
     height: 100%;
 }
-
+nav:hover{
+    background-color: #8a9597 ;
+}
 .titulos{
     text-decoration:underline;
     text-decoration-color:#F1C40F;
