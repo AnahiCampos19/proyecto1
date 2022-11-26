@@ -57,7 +57,11 @@ header{
   @media (min-width: 768px) {
     .objeto2{display: none ; }
   }
-
+  .magia{
+    width: 140px;
+    height: 90px;
+    margin: 10px;
+}
 /* mobile first */
 body { font-size: 14px;
         color: cornsilk;
@@ -168,11 +172,7 @@ img{
     height: 100%;
     margin: 4%;
 }
-.magia{
-    width: 140px;
-    height: 90px;
-    margin: 10px;
-}
+
 .mapafooter{
     width: 100% ;
     height: 100%;
