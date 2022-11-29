@@ -7,17 +7,18 @@
     <meta name="keywords" content="Jujuy, gastronomia, actividades, turismo, cultura, costumbres, paisajes, ">
     <meta name="author" content="Anahi Campos Desarrolladora FrontEnd y Tester QA">
     <title>Recetas de Jujuy</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
-
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
         <img class="logo"src="./imagenes/logo.png" alt="Jujuy"> 
         <h1 class="encabezado2">Recetas de Jujuy</h1>
-            <div class="container">
+            <div class="containerredes">
                     <a  href="https://www.facebook.com//" target="_blank">
                         <img  class="redes" src="./imagenes/facebook.png " alt="facebook">
                     </a>
@@ -35,7 +36,7 @@
     <nav >
         <ul>
             <li>
-                <a href="index.html" target="_blank">Home</a>
+                <a href="index.html" target="_blank">Inicio</a>
             </li>
             <li>
                 <a href="api.html" target="_blank"> Api</a>
@@ -63,7 +64,7 @@
         
         <div class="contenidoprincipal"> 
             <section class="parte1">
-                <h2 class="titulos">Ingredientes</h2>
+                <h2 class="subtitulos">Ingredientes</h2>
                 <ul class="izquierda">
                     <li>500 gr. de harina común</li> 
                     <li>30 gr levadura fresca </li> 
@@ -81,7 +82,7 @@
         </div>
         <div class="procedimiento">
             <section class="parte1">
-                <h2 class="titulos">Procedimiento</h2>
+                <h2 class="subtitulos">Procedimiento</h2>
                 <ol class="izquierda">
                     <li>Disolver la levadura con un poco de agua tibia, una pizca de azúcar y un poco de harina (hacer un fermento)</li>
                     <li> Hacer una corona con la harina y la pizca de sal dentro de un bowl, incorporar el fermento, agregar el agua tibia hasta lograr una masa blanda y pegajosa, dejar levar.</li>
@@ -90,23 +91,68 @@
                 </ol>
             </section>
             <figure class="parte2">
-                    <h2 class="titulos">
+                    <h2 class="subtitulos">
                         Mira como prepararlo
                     </h2>
                     <iframe src="https://www.youtube.com/embed/BmB5lh5NHnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
         </div>
-        <h2 class="titulos">Paseo de Buñuelos en Jujuy</h2>
+        <h2 class="subtitulos">Paseo de Buñuelos en Jujuy</h2>
         <section class="mapas">
             <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d116282.1788051836!2d-65.33990725931083!3d-24.387630900681643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x941baf052be5739f%3A0x6adf3238d4bdc7eb!2sRP42%201000%2C%20El%20Carmen%2C%20Jujuy!3m2!1d-24.387646999999998!2d-65.2698669!5e0!3m2!1ses-419!2sar!4v1667244451143!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section> 
         <div class="magia">
-            <figure class="objeto1">
+            <figure class="objeto2">
                 <img src="./imagenes/fne.jpg" alt="fne">
             </figure>
-            <figure class="objeto2">
+            <figure class="objeto1">
                 <img src="./imagenes/fnemovil.jfif" alt="fnemovil">
             </figure>
+        </div>
+        <h2 class="subtitulos"> Informacion de la Provincia de Jujuy</h2>
+        <div class="container-card">
+            <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imagenes/jorgeaccame.jpg" class="card-img-top" alt="JorgeAccame">
+                            <div class="card-body">
+                              <h5 class="card-title">Jorge Accame</h5>
+                              <p class="card-text"> Nació en Buenos Aires, Argentina, en 1956. Es licenciado en Letras. Ha sido docente en la Facultad de Humanidades y Ciencias Sociales de la Universidad Nacional de Jujuy, donde vive desde 1982.Ha publicado poesía, novela, literatura juvenil y teatro. Su obra ha sido galardonada con diversos premios (no cree en la literatura infantil)</p>
+                              <a href="https://www.youtube.com/watch?v=1ntmDLeL6qY&t=410s " class="btn btn-secondary">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imagenes/fiesta-de-los-estudiantes-jujuy.webp" class="card-img-top" alt="carrozapalpala">
+                            <div class="card-body">
+                              <h5 class="card-title">Fiesta Nacional de los Estudiantes</h5>
+                              <p class="card-text">Todo comenzó en el año 1916 cuando los estudiantes del Colegio Nacional 1 celebraban las “estudiantinas”. Se trataban de festejos donde había representaciones teatrales, publicaciones humorísticas y sketchs con fuertes críticas al gobierno, los docentes y directivos. </p>
+                              <a href=" https://www.facebook.com/enet1escolasticozegada/videos/591342686056102 " class="btn btn-secondary">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imagenes/7colores.jfif" class="card-img-top" alt="cerro7colores">
+                            <div class="card-body">
+                              <h5 class="card-title">Cerro de 7 colores Patrimonio de la Humanidad</h5>
+                              <p class="card-text">Desde el 2003 es Sitio Patrimonio Cultural de la Humanidad de la UNESCO, y está ubicado en la Quebrada de Humahuaca, a la salida de la ciudad de Purmamarca, sobre la ruta Nacional 52, en la Provincia de Jujuy. Un atractivo increíble en un destino único. </p>
+                              <a href=" https://www.youtube.com/watch?v=Ve6DtzOUSys" class="btn btn-secondary">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imagenes/ricardovilca.jfif" class="card-img-top" alt="ricardovilca">
+                            <div class="card-body">
+                              <h5 class="card-title"> Ricardo Vilca</h5>
+                              <p class="card-text">El artista, nacido en Humahuaca el 5 de noviembre de 1953, recibió en 1983 un premio de la Unesco por su contribución cultural a la Quebrada, fue durante más de 16 años docente en escuelas rurales y siempre resaltó que obtuvo en esa experiencia la materia prima que inspiró su obra musical </p>
+                              <a href="https://www.youtube.com/watch?v=DRI6IB_8GHE " class="btn btn-secondary">Explorar</a>
+                            </div>
+                          </div>
+                    </div>
+            </div>
         </div>
 
     </main>
@@ -114,7 +160,7 @@
         <section>
             <iframe class="mapafooter" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26276.670299306264!2d-58.3942979021917!3d-34.58939659962731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab6fb9fda31%3A0xc63b4bf37c945929!2sRetiro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1668374453410!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <div class="container">
+        <div class="containerredes">
             <a  href="https://www.facebook.com//" target="_blank">
                 <img  class="redes" src="./imagenes/facebook.png " alt="facebook">
             </a>

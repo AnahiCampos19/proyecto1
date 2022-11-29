@@ -27,7 +27,7 @@ header{
     margin: 10px;
 }
 
-.container{
+.containerredes{
     display: flex;
     width: 25% ;
     justify-content: space-around;
@@ -84,6 +84,7 @@ body { font-size: 14px;
 }
 }
 
+
 h2{
     font-family: "ana" ;
 }
@@ -91,6 +92,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     background-color: #EAECEE;
+    color: #AF7AC5;
     width:100% ;
 }
 nav ul{    
@@ -103,15 +105,15 @@ nav ul{
 }
 a{
     text-decoration: none;
+    color: #AF7AC5;
 }
 nav:hover{
     background-color: #8a9597 ;
 }
 .titulos{
-    text-decoration:underline;
-    text-decoration-color:#F1C40F;
     font-size: 1.8rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .izquierda{
@@ -131,8 +133,7 @@ nav:hover{
 }
 
 .subtitulos{
-    text-decoration:underline;
-    text-decoration-color:#F1C40F;
+    font-weight: bold;
     text-align: left;
 }
 
@@ -159,6 +160,7 @@ img{
     justify-content:space-around;
     width:100%;
     height: 100%;
+    margin: 5px;
 }
 .mapas{
     display: flex;
@@ -168,10 +170,16 @@ img{
     height: 100%;
     margin: 4%;
 }
+
 .mapafooter{
     width: 100% ;
     height: 100%;
     margin: 2px;
+}
+.magia{
+    width: 140px;
+    height: 90px;
+    margin: 10px;
 }
 footer{
     background-color: #F39C12;
@@ -182,8 +190,28 @@ footer{
     justify-content: space-around;
     align-items: center;
     min-height: 15vh;
+    
 }
-
-
-
-
+.-btn-secondary{
+    color:#AF7AC5;
+}
+.btn-secondary:hover{
+    background-color:  #EAECEE ;
+    color:#AF7AC5;
+}
+.btn{
+    background-color: #8a9597;
+}
+.card-img-top{
+    height: 150px;
+    border-radius: 5px;
+}
+.container-card{
+    width: 100%;
+    margin-top: 90px;
+    border-top: 2px;
+    color: #AF7AC5;
+}
+.card-title{
+    font-weight: bold;
+}
