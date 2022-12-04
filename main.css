@@ -92,7 +92,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     background-color: #EAECEE;
-    color: #AF7AC5;
     width:100% ;
 }
 nav ul{    
@@ -177,9 +176,8 @@ img{
     margin: 2px;
 }
 .magia{
-    width: 140px;
-    height: 90px;
-    margin: 10px;
+    display: flex;
+    width: 50%;
 }
 footer{
     background-color: #F39C12;
@@ -192,8 +190,16 @@ footer{
     min-height: 15vh;
     
 }
+.container-card{
+    display: flex;
+    width: 100%;
+    border-top: 2px;
+    color: #AF7AC5;
+
+}
 .-btn-secondary{
     color:#AF7AC5;
+
 }
 .btn-secondary:hover{
     background-color:  #EAECEE ;
@@ -201,17 +207,28 @@ footer{
 }
 .btn{
     background-color: #8a9597;
+    bottom: 1px;
+    
 }
 .card-img-top{
     height: 150px;
     border-radius: 5px;
 }
-.container-card{
-    width: 100%;
-    margin-top: 90px;
-    border-top: 2px;
-    color: #AF7AC5;
-}
+
 .card-title{
     font-weight: bold;
+}
+.card {
+    width: 14rem;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-text {
+    font-size: 1em;
+
+}
+div{
+    display: block;
 }
