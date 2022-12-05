@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "ana";
+    src: url( "../roboto/Roboto-Thin.ttf");
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F39C12;
+    min-height: 15vh;
+}
+.logo{
+    width: 140px;
+    height: 90px;
+    margin: 10px;
+}
+.encabezado2{
+
+    text-align: center;
+    font-family: cursive;
+    font-size: 4em;
+    margin: 10px;
+}
+
+.containerredes{
+    display: flex;
+    width: 25% ;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+} 
+
+@media (max-width: 992px) {
+    body { background-color:#FAE5D3 ; }
+  }
+@media (max-width: 768px) {
+    body { background-image:url(../imagenes/7colores.jfif) ; }
+  }
+@media (max-width: 576px) {
+    body { background-image: url( ../imagenes/hornacal.jfif);}
+  }
+
+  @media (max-width: 768px) {
+    .objeto1{display: none ; }
+  }
+
+  @media (min-width: 768px) {
+    .objeto2{display: none ; }
+  }
+
+/* mobile first */
+body { font-size: 14px;
+        color: cornsilk;
+}
+
+/* tabletas */
+@media (min-width: 768px) {
+  body { font-size: 15px;
+        color: black;
+}
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+  body { font-size: 16px;
+        color:#AF7AC5 ;
+}
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+  body { font-size: 17px; 
+        color: #AF7AC5;
+}
+}
+
+
+h2{
+    font-family: "ana" ;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EAECEE;
+    width:100% ;
+    padding: 2%;
+}
+nav ul{    
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:space-around;
+    width:100% ;
+    height: 100%;
+   
+}
+a{
+    text-decoration: none;
+    color: #AF7AC5;
+}
+nav:hover{
+    background-color: #b5c4c7 ;
+}
+
+.titulos{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.izquierda{
+    text-align: left;
+    height: 80%;
+}
+
+.whatsapp{
+    border: #FAE5D3;
+    height:50px;
+    width: 50px;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 80px;
+}
+
+.subtitulos{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+.contenidoprincipal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.procedimiento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width:100%;
+    height: 100%;
+    margin: 5px;
+}
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width:100%;
+    height: 100%;
+    margin: 4%;
+}
+
+.mapafooter{
+    width: 100% ;
+    height: 100%;
+    margin: 2px;
+}
+.magia{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+.objeto2{
+    width: 300px;
+}
+footer{
+    background-color: #F39C12;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% ;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    
+}
+.container-card{
+    display: flex;
+    width: 100%;
+    border-top: 2px;
+    color: #AF7AC5;
+
+}
+.-btn-secondary{
+    color:#AF7AC5;
+
+}
+.btn-secondary:hover{
+    background-color: #F39C12;
+    color:#AF7AC5;
+}
+.btn{
+    background-color: #8a9597;
+    bottom: 1px;
+    
+}
+.card-img-top{
+    height: 150px;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+.card {
+    width: 14rem;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card-text {
+    font-size: 1em;
+
+}
+div{
+    display: block;
+}
+button{
+    background-color: #8a9597;
+    border-radius: 15px;
+}
